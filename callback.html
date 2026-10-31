@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"><link rel="icon" href="icon.png"><title>Connecting - Luca Autopost</title></head><body>
+<h1>Connecting your TikTok account...</h1>
+<p class="muted">Luca Autopost runs on the owner's own computer. This page hands TikTok's one-time login code to it.</p>
+<script>
+  // TikTok requires an https redirect URI; the app itself listens on the owner's machine.
+  location.replace("http://127.0.0.1:8723/tiktok/callback" + location.search);
+</script>
+</body></html>
